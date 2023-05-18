@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*Demais mídias*/
+
+
+@media Tablet{
+    #itens ul li {
+        display: none;
+    }
+}
+
+@media Desktop {
+
+    #itens ul li {
+        display: none;
+    }
+}
+
+
+

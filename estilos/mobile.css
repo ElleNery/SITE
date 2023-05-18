@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+/*Configurações Mobile*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /*inclui a borda no cálculo do tamanho*/
+    }
+
+    html, body {
+        width: 100vw;
+        height: 100vh;
+        background: white;
+        margin: 0;
+    }
+
+    #faixasuperior{
+        background: red;
+        color: white ;
+        font-size: 1.5em;
+        width: 100vw;
+        height: auto; 
+        position: relative;  
+        float: left;
+        }
+
+    #pesquisa{
+        width: 250px;
+        background: greenyellow;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+      
+
+    }
+
+    #busca{
+        background: white;
+        color: black;
+        font-size: 1em;
+        border-radius: 8px;
+        padding: 6px;
+              
+    }
+
+    
+    #botao-buscar{
+        background: red;
+        color: white;
+        border-radius: 0px 4px 4px 0px;
+        display:inline-block ;
+        cursor: pointer;
+        margin-left: -4px;
+      
+    }
+
+    #burger{
+        position: absolute;
+        top: 60px;       
+        right: 10px;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-radius: 17px;
+        padding: 5px;
+    }
+
+    #itens {
+        width:200px;
+        position: absolute;
+        top: 95px;
+        right: 0px;
+        background-color: rgba(128, 128, 128, 0.91);
+        
+
+    }
+
+   
+    #itens ul{
+        color: black;
+        font-size: 15px;
+        list-style: none;
+           
+    }
+
+    #itens ul li {
+        padding: 10px;
+        text-align: left;
+        border-top: 1px solid black;
+    }
+
+    #itens ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+  
+    #logo {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        width: 100%;
+        
+    }
+    
+    
+    #whatsapp{    
+        padding: 8px 8px 8px 10px;
+        position: relative;
+        float: right;
+        width: 200px;
+       
+    }
+    
+    #whatsapp>span{
+        font-size: 18px;
+    }
+    
+    #redessociais{    
+        padding: 8px 0px 8px 10px;
+        float: left;
+        width: 150px;
+    }
+
+    img{
+        display:block;
+        margin:auto;
+    }
+
+    #imgchild img{ 
+        width: 100%;
+    }
+
+    #imgchild source{ 
+        width: 100vw;
+    }
+
+    #container-vendas{
+        background: black;
+        float: left;
+        width: auto;
+        padding-top: 10px;
+        
+    }
+
+    #container-vendas .vendas{
+        float: left;
+        width: 100%;
+        
+        margin-bottom: 6px;
+       
+    }
+    #container-vendas .icone {
+        color: red;
+       
+        width: 35px;
+        float: left;
+        padding-top: 3px;
+        padding-left: 5px;
+    }
+
+    #container-vendas .descricao-vendas {
+        
+        width: 250px;
+        float: left;
+        padding-left: 6px;
+        
+
+    }
+
+    #container-vendas #vendas1 {
+        color: white;
+        font-size: 14px;
+    }
+
+    #container-vendas #descontos {
+        color: red;
+        font-size: 12px;
+        
+    }
+
+    h1 {
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #container {
+        float: left;
+        background: rgba(182, 182, 182, 0.87);
+        width: 100vw;
+        height: 700px;
+        
+        justify-content: center;
+        
+    }
+
+    #container>#vitrinebanner {
+        background: white;
+        width: 315px;
+        height: 600px;
+        border: 2px solid white;
+        margin: 30px 30px 20px 30px;        
+        border-radius: 20px;
+    }
+
+    #Infosecontato {
+        background: black;
+    }
+
+    #Infosecontato>.Informacoes {
+        color: red;
+        text-align: center;
+    }
+
+    #Infosecontato>.links a {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    #Infosecontato>.links {
+        text-align: center;
+    }
+
+    #Infosecontato>#zap {
+        text-align: center;
+        color: white;
+    }
