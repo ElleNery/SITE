@@ -82,10 +82,10 @@
 
    
     #itens ul{
-        color: black;
+        
         font-size: 15px;
         list-style: none;
-    }
+        }
 
     #itens ul li {
         padding: 10px;
@@ -95,7 +95,7 @@
 
     #itens ul li a {
         text-decoration: none;
-        color: black;
+        color: white;
     }
 
   
