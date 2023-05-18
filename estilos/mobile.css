@@ -112,11 +112,17 @@
         position: relative;
         float: right;
         width: 200px;
+        
        
     }
     
     #whatsapp>span{
         font-size: 18px;
+    }
+
+    #whatsapp span a{
+        text-decoration: none;
+        color: white;
     }
     
     #redessociais{    
