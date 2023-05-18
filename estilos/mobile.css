@@ -15,12 +15,12 @@
     html, body {
         width: 100vw;
         height: 100vh;
-        background: white;
+        background:#c7c1b6;
         margin: 0;
     }
 
     #faixasuperior{
-        background: red;
+        background: #393939;
         color: white ;
         font-size: 1.5em;
         width: 100vw;
@@ -31,12 +31,10 @@
 
     #pesquisa{
         width: 250px;
-        background: greenyellow;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 15px;
-      
-
+        text-align: center;  
     }
 
     #busca{
@@ -45,7 +43,6 @@
         font-size: 1em;
         border-radius: 8px;
         padding: 6px;
-              
     }
 
     
@@ -56,7 +53,7 @@
         display:inline-block ;
         cursor: pointer;
         margin-left: -4px;
-      
+        border: none;      
     }
 
     #burger{
@@ -71,25 +68,23 @@
     }
 
     #itens {
-        width:200px;
+        width:100%;
         position: absolute;
-        top: 95px;
+        top: 100px;
         right: 0px;
         background-color: rgba(128, 128, 128, 0.91);
-        
-
+        display: none;
     }
 
    
-    #itens ul{
-        
+    #itens ul{        
         font-size: 15px;
         list-style: none;
-        }
+    }
 
     #itens ul li {
         padding: 10px;
-        text-align: left;
+        text-align: right;
         border-top: 1px solid black;
     }
 
@@ -102,8 +97,7 @@
     #logo {
         padding-top: 60px;
         padding-bottom: 20px;
-        width: 100%;
-        
+        width: 100%;       
     }
     
     
@@ -111,9 +105,7 @@
         padding: 8px 8px 8px 10px;
         position: relative;
         float: right;
-        width: 200px;
-        
-       
+        width: auto;              
     }
     
     #whatsapp>span{
@@ -128,7 +120,7 @@
     #redessociais{    
         padding: 8px 0px 8px 10px;
         float: left;
-        width: 150px;
+        width: auto;
     }
 
     img{
@@ -145,36 +137,30 @@
     }
 
     #container-vendas{
-        background: black;
+        background: #393939;
         float: left;
         width: auto;
-        padding-top: 10px;
-        
+        padding-top: 10px;        
     }
 
     #container-vendas .vendas{
         float: left;
-        width: 100%;
-        
-        margin-bottom: 6px;
-       
+        width: 100%;        
+        margin-bottom: 6px;       
     }
+
     #container-vendas .icone {
         color: red;
-       
         width: 35px;
         float: left;
         padding-top: 3px;
         padding-left: 5px;
     }
 
-    #container-vendas .descricao-vendas {
-        
+    #container-vendas .descricao-vendas {        
         width: 250px;
         float: left;
-        padding-left: 6px;
-        
-
+        padding-left: 6px;       
     }
 
     #container-vendas #vendas1 {
@@ -184,25 +170,26 @@
 
     #container-vendas #descontos {
         color: red;
-        font-size: 12px;
-        
+        font-size: 12px;        
     }
 
-    h1 {
-        color: black;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-    }
+    
 
     #container {
         float: left;
         background: rgba(182, 182, 182, 0.87);
         width: 100vw;
-        height: 700px;
-        
-        justify-content: center;
-        
+        height: 700px;        
+        justify-content: center;        
+    }
+
+    #container h1 {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+
     }
 
     #container>#vitrinebanner {
@@ -215,22 +202,29 @@
     }
 
     #Infosecontato {
-        background: black;
+        background: #393939;
+        height: auto;
+        width: 100%;
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 50px;
     }
 
     #Infosecontato>.Informacoes {
         color: red;
         text-align: center;
+        margin-bottom: 7px;
     }
 
     #Infosecontato>.links a {
         text-decoration: none;
-        color: white;
-        
+        color: white;  
+
     }
 
     #Infosecontato>.links {
         text-align: center;
+        margin-bottom: 7px;
     }
 
     #Infosecontato>#zap {
