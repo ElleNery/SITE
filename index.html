@@ -26,6 +26,10 @@
             </div>
         </div>
 
+        <div>
+            <span id="shopping" class="material-symbols-outlined">shopping_cart</span>
+        </div>
+
         <div id="logo">
             <img src="images/logo-livrarias-ediler.png" alt="logo">
         </div>
@@ -39,17 +43,9 @@
             <button id="botao-buscar"><span class="material-symbols-outlined">search</span></button>
          </div>
 
-         <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
          
-         <menu id="itens">
-            <ul>
-                <li><a href="#">Opção1</a></li>
-                <li><a href="#">Opção2</a></li>
-                <li><a href="#">Opção3</a></li>
-                <li><a href="#">Opção4</a></li>
-            </ul>
-
-         </menu>
+         
+         
                    
         
         <div id="imgchild">
@@ -63,40 +59,25 @@
             </picture>
 
         </div>
+
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
         
-        <div id="container-vendas">
-            <div class="vendas">
-                <div class="icone">
-                    <span class="material-symbols-outlined">local_shipping</span>
-                </div>
-                <div class="descricao-vendas">
-                    <p id="vendas1">Frete grátis- Ribeirão Preto e região</p>
-                    <p id="descontos">nas compras acima de R$ 250</p>
-                </div>
-            </div>
-            <div class="vendas">
-                <div class="icone">
-                    <span class="material-symbols-outlined">sell</span>
-                </div>
-                <div class="descricao-vendas">
-                    <p id="vendas1">30% de Desconto</p>
-                    <p id="descontos">na sua primeira compra</p>
-                </div>
-            </div>
-            <div class="vendas">
-                <div class="icone">
-                    <span class="material-symbols-outlined">credit_card</span>
-                </div>
-                <div class="descricao-vendas">
-                    <p id="vendas1">Até 4x Sem juros</p>
-                    <p id="descontos">para parcelar suas compras</p>
-                </div>
-            </div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção1</a></li>
+                <li><a href="#">Opção2</a></li>
+                <li><a href="#">Opção3</a></li>
+                <li><a href="#">Opção4</a></li>
+            </ul>
+
+         </menu>
         
-        </div>
+        
 
         <div id="container">
-            <h1>Lançamentos</h1>
+            
+            <h1 id="lancamentos">Lançamentos</h1>
             <div id="vitrinebanner"></div>
         </div>
         
@@ -111,6 +92,37 @@
             }
         }
     </script>
+
+<div id="container-vendas">
+    <div class="vendas">
+        <div class="icone">
+            <span class="material-symbols-outlined">local_shipping</span>
+        </div>
+        <div class="descricao-vendas">
+            <p id="vendas1">Frete grátis- Ribeirão Preto e região</p>
+            <p id="descontos">nas compras acima de R$ 250</p>
+        </div>
+    </div>
+    <div class="vendas">
+        <div class="icone">
+            <span class="material-symbols-outlined">sell</span>
+        </div>
+        <div class="descricao-vendas">
+            <p id="vendas1">30% de Desconto</p>
+            <p id="descontos">na sua primeira compra</p>
+        </div>
+    </div>
+    <div class="vendas">
+        <div class="icone">
+            <span class="material-symbols-outlined">credit_card</span>
+        </div>
+        <div class="descricao-vendas">
+            <p id="vendas1">Até 4x Sem juros</p>
+            <p id="descontos">para parcelar suas compras</p>
+        </div>
+    </div>
+
+</div>
 
     <footer>
         <div id="Infosecontato" >
